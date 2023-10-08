@@ -4,7 +4,7 @@ import thunk from "redux-thunk";
 import Reducer from "./users/users.reducers";
 import AuthReducer from './auth/auth.reducers';
 
-axios.defaults.baseURL = "http://localhost:8080"
+axios.defaults.baseURL = "https://bright-jersey-deer.cyclic.app"
 
 declare global {
      interface Window {
